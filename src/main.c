@@ -13,8 +13,8 @@ int add_period_activity(struct periods *per, int is_active, int is_last);
 //int add_cut_file_activity(struct cut_info *cut, int is_active, int is_last);
 
 int main() {
-    const char filename[] = "pcm/16k_1.pcm"; // 读取的文件
-    const char output_filename_prefix[] = "16k_1.pcm"; // 保存的文件名
+    const char filename[] = "pcm/8k_1test.pcm"; // 读取的文件
+    const char output_filename_prefix[] = "8k_1test.pcm"; // 保存的文件名
     const char output_dir[] = "output_pcm"; // 保存的目录
     FILE *fp = fopen(filename, "rb");
     if (fp == NULL) {
